@@ -13,7 +13,7 @@ namespace OneHourJam386
         private void Awake()
         {
             _agent = GetComponent<NavMeshAgent>();
-            GameObject.FindGameObjectsWithTag("Flag");
+            _flags = GameObject.FindGameObjectsWithTag("Flag");
         }
 
         private void SetTask()

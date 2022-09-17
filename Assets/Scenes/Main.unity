@@ -738,6 +738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flag (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2376465293523347105, guid: f50e9eedf1d8de349b63b1ee2483cf2a, type: 3}
+      propertyPath: m_TagString
+      value: Flag
+      objectReference: {fileID: 0}
     - target: {fileID: 3148357243472231451, guid: f50e9eedf1d8de349b63b1ee2483cf2a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -941,23 +945,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b672812cf2f0eb348aa92cc78037f9fb, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -4.3297806e-17
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b672812cf2f0eb348aa92cc78037f9fb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -4.3297806e-17
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b672812cf2f0eb348aa92cc78037f9fb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b672812cf2f0eb348aa92cc78037f9fb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b672812cf2f0eb348aa92cc78037f9fb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b672812cf2f0eb348aa92cc78037f9fb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1070,7 +1074,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1970576696}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.9702479
+  m_Radius: 0.96918917
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -1094,6 +1098,10 @@ PrefabInstance:
     - target: {fileID: 2376465293523347105, guid: f50e9eedf1d8de349b63b1ee2483cf2a, type: 3}
       propertyPath: m_Name
       value: Flag (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376465293523347105, guid: f50e9eedf1d8de349b63b1ee2483cf2a, type: 3}
+      propertyPath: m_TagString
+      value: Flag
       objectReference: {fileID: 0}
     - target: {fileID: 3148357243472231451, guid: f50e9eedf1d8de349b63b1ee2483cf2a, type: 3}
       propertyPath: m_RootOrder
