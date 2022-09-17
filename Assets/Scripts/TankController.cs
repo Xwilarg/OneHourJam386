@@ -7,7 +7,7 @@ namespace OneHourJam386
     {
         private Rigidbody _rb;
         private const float _speed = 4f;
-        private const float _rotSpeed = .5f;
+        private const float _rotSpeed = 15f;
 
         private Vector3 _mov;
 
@@ -20,7 +20,7 @@ namespace OneHourJam386
         {
             var relMove = transform.up * _mov.y * _speed;
             _rb.velocity = new Vector3(relMove.x, _rb.velocity.y, relMove.z);
-            transform.Rotate(Vector3.forward, _mov.x * _rotSpeed);
+            _rb.angularVelocity = new Vector3(relMove.x, _mov.x * _rotSpeed, relMove.z);
         }
 
         public void Move(InputAction.CallbackContext value)
