@@ -7,7 +7,7 @@ namespace OneHourJam386
     {
         private Rigidbody _rb;
         private const float _speed = 4f;
-        private const float _rotSpeed = 15f;
+        private const float _rotSpeed = 10f;
 
         private Vector3 _mov;
 
