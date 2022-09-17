@@ -10,6 +10,8 @@ namespace OneHourJam386
 
         private GameObject[] _flags;
 
+        private Vector3 _target;
+
         private void Awake()
         {
             _agent = GetComponent<NavMeshAgent>();
@@ -20,6 +22,7 @@ namespace OneHourJam386
         {
             var r = _flags[Random.Range(0, _flags.Length)];
             _agent.SetDestination(r.transform.position);
+            _target = r.transform.position;
         }
 
         private void Start()
@@ -29,7 +32,10 @@ namespace OneHourJam386
 
         private void Update()
         {
-            
+            if (Vector3.Distance(transform.position, _target) < 2f)
+            {
+                SetTask();
+            }
         }
     }
 }
