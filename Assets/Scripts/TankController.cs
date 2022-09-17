@@ -6,7 +6,7 @@ namespace OneHourJam386
     public class TankController : MonoBehaviour
     {
         private Rigidbody _rb;
-        private const float _speed = 4f;
+        private const float _speed = 8f;
         private const float _rotSpeed = 10f;
 
         private Vector3 _mov;
