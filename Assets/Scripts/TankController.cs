@@ -18,8 +18,9 @@ namespace OneHourJam386
 
         private void Update()
         {
-            _rb.velocity = transform.forward * _mov.y * _speed;
-            transform.Rotate(Vector3.up, _mov.x * _rotSpeed);
+            var relMove = transform.up * _mov.y * _speed;
+            _rb.velocity = new Vector3(relMove.x, _rb.velocity.y, relMove.z);
+            transform.Rotate(Vector3.forward, _mov.x * _rotSpeed);
         }
 
         public void Move(InputAction.CallbackContext value)
